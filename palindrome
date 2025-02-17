@@ -1,0 +1,10 @@
+def palicheck(s: str) -> bool:
+    s = s.lower()
+    return s == s[::-1]
+
+print(palicheck("madam"))
+print(palicheck("madAm"))
+print(palicheck("radar"))
+print(palicheck("12321"))
+print(palicheck("loop"))
+print(palicheck("123$!$321"))
